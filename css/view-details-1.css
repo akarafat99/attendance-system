@@ -1,0 +1,31 @@
+.box-2 {
+    padding: 5px;
+}
+
+.box-container-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+.box-container-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 15px;
+}
+
+.box-3 {
+    background: #2e2e2ec7;
+    color: white;
+}
+.box-3:hover, .box-2:hover {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    transform: scale(1);
+}
+
+.t-align-l {
+    text-align: left;
+}
+
+.t-align-r {
+    text-align: right;
+}

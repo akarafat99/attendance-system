@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 3fr 2fr 2fr;
+            gap: 5px;
+        }
+
+        .grid-item {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .responsive-grid {
+            overflow-x: auto;
+        }
+
+        .margin-20-0 {
+                margin: 2% 15%;
+            }
+
+        @media (max-width: 600px) {
+            .margin-20-0 {
+                margin: 2% 2%;
+            }
+        }
+    </style>
+    <title>Grid Layout</title>
+</head>
+<body>
+    <div class="responsive-grid margin-20-0">
+        <div class="grid-container">
+            <!-- Header Row -->
+            <div class="grid-item">Name</div>
+            <div class="grid-item">ID</div>
+            <div class="grid-item">Status</div>
+
+            <!-- Sample Data Rows -->
+            <div class="grid-item">John Doe</div>
+            <div class="grid-item">12345</div>
+            <div class="grid-item">
+                <input type="radio" name="status1" value="present"> Present
+                <input type="radio" name="status1" value="absent"> Absent
+            </div>
+
+            <div class="grid-item">Jane Smith</div>
+            <div class="grid-item">67890</div>
+            <div class="grid-item">
+                <input type="radio" name="status2" value="present"> Present
+                <input type="radio" name="status2" value="absent"> Absent
+            </div>
+
+            <!-- Add more rows as needed -->
+
+        </div>
+    </div>
+</body>
+</html>

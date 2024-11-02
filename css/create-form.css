@@ -1,0 +1,62 @@
+.bg-1 {
+    background-image: url(../image/bg-2.jpg);
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* body{
+    padding:50px;
+} */
+.container {
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-btn1 {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.form-btn2 {
+    text-align: center;
+}
+
+label {
+
+    cursor: pointer;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+/* used for homepage button */
+.form-btn0 {
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    transition: .2s;
+}
+
+form-btn0 :hover {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+}

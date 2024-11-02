@@ -1,0 +1,62 @@
+/* used in attendance taking form */
+
+.grid-container-f1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 5px;
+}
+
+.grid-container-f2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 5px;
+}
+
+.t-a-left {
+    text-align: left !important;
+}
+
+/* Set the background color for odd and even rows */
+.grid-item-f2:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+.grid-item-f2:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.grid-item-f1, .grid-item-f2 {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.responsive-grid-f1 {
+    overflow-x: auto;
+}
+
+.margin-2-15 {
+    margin: 2% 15%;
+}
+
+@media (max-width: 720px) {
+    .margin-2-15 {
+        margin: 2% 2%;
+    }
+
+    .grid-container-f1,
+    .grid-container-f2 {
+        grid-template-columns: 1fr;
+        /* Change to 1fr to have one column */
+    }
+
+    .grid-item-f2:nth-child(4n+1), .grid-item-f2:nth-child(4n+2) {
+        background-color: #f0f0f0;
+        /* Set the background color for rows 1 and 2, 5 and 6, 9 and 10, and so on */
+    }
+
+    .grid-item-f2:nth-child(4n+3), .grid-item-f2:nth-child(4n+4) {
+        background-color: #e0e0e0;
+        /* Set the background color for rows 3 and 4, 7 and 8, 11 and 12, and so on */
+    }
+}

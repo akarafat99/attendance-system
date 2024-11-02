@@ -1,0 +1,50 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-btn1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.form-btn2 {
+    text-align: center;
+}
+
+label {
+    cursor: pointer;
+    font-weight: 100;
+    margin-bottom: 10px;
+    display: block; /* Make the label a block element */
+}
+
+/* Added a new class 'select-width' to control the width of the select element */
+.select-width {
+    width: 100%; /* Set the width to 100% */
+}
+
+/* used for homepage button */
+.form-btn0 {
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+    transition: .2s;
+}
+
+.form-btn0:hover {
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fff;
+}

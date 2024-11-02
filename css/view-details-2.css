@@ -1,0 +1,20 @@
+.input-1 {
+    border: 1px solid white;
+    margin: 10px 0px 10px 0px;
+    padding: 1%;
+    width: 70%;
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+    box-shadow: 0px 0px 2px grey;
+}
+
+.selectdiv-1 {
+    width: auto;
+}
+
+.selectdiv-1 option {
+    padding: 30px;
+    margin: 30px;
+    background: rgb(219, 219, 219);
+}
